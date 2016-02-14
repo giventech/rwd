@@ -12,8 +12,8 @@
 // $contrasted-dark-default: black;
 // $contrasted-light-default: white;
 
-// @include add-grid(12);
-// @include add-gutter(1/3);
+@include add-grid(12);
+@include add-gutter(1/3);
 
 // $small: 0px 599px;
 // $medium: 600px 1199px;
