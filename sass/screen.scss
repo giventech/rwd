@@ -28,7 +28,6 @@ $wrapper_border_color: green;
 .cool-div, .uncool-div {
   @include breakpoint($smallish) {
     @include float-span(8);
-    border-color: $border_color;
   }
   @include breakpoint($largeish) {
     @include float-span(4);
