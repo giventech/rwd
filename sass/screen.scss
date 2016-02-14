@@ -32,7 +32,7 @@ body {
 }
 
 
-.cool-div, .uncool-div {
+.cooldiv, .uncooldiv {
   border: 10px solid $border_color;
   @include breakpoint($smallish) {
     @include float-span(8);
