@@ -43,10 +43,6 @@ body {
 }
 
 .wrapper {
-  max-width: $large;
-  padding: 0 $large;
-  margin: 0 auto;
-  position: relative;
   border: 10px solid;
   border-color: $wrapper_border_color;
 }
