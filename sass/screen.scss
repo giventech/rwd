@@ -26,13 +26,13 @@ $border_color: black;
 $wrapper_border_color: green;
 
 .cool-div, .uncool-div {
+  border: 10px solid $border_color;
   @include breakpoint($smallish) {
     @include float-span(8);
   }
   @include breakpoint($largeish) {
     @include float-span(4);
   }
-  border: 10px solid $border_color;
 }
 
 .wrapper {
