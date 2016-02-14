@@ -43,5 +43,6 @@ body {
 }
 
 .wrapper {
+  @include float-span(12);
   border: 10px solid $wrapper_border_color;
 }
