@@ -32,8 +32,7 @@ $wrapper_border_color: green;
   @include breakpoint($largeish) {
     @include float-span(4);
   }
-  border: 10px solid;
-  border-color: $border_color;
+  border: 10px solid $border_color;
 }
 
 .wrapper {
