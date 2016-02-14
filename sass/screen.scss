@@ -26,21 +26,15 @@ $border_color: black;
 $wrapper_border_color: green;
 
 .cool-div, .uncool-div {
-@include
-breakpoint($smallish) {
-
-@include float-span(8);
-
-border-color: $border_color;
-}
-@include
-breakpoint($largeish) {
-@include float-span(4);
-
-
-}
-border: 10px solid;
-border-color: $border_color;
+  @include breakpoint($smallish) {
+    @include float-span(8);
+    border-color: $border_color;
+  }
+  @include breakpoint($largeish) {
+    @include float-span(4);
+  }
+  border: 10px solid;
+  border-color: $border_color;
 }
 
 .wrapper {
@@ -50,5 +44,4 @@ border-color: $border_color;
   position: relative;
   border: 10px solid;
   border-color: $wrapper_border_color;
-
 }
