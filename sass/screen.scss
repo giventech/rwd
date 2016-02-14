@@ -43,6 +43,5 @@ body {
 }
 
 .wrapper {
-  border: 10px solid;
-  border-color: $wrapper_border_color;
+  border: 10px solid $wrapper_border_color;
 }
